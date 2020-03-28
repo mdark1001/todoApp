@@ -1,4 +1,7 @@
-# todo_list
+# todoApp
+Proyecto creado con vue-cli, tiene como proposito una lista de deberes usando usando  *Kanban*.
+
+  
 
 ## Project setup
 ```
