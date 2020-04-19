@@ -1,14 +1,22 @@
 <template>
-  <section class="section">
-    <div class="container">
-      <h1 class="title">Listado de tareas</h1>
-      <div class="columns is-mobile is-desktop is-tablet is-multiline" id="sectioncontainer">
-
-        <Columns v-for="state in states" :column="state" :key="state.key"></Columns>
-
+  <div>
+    <section class="hero is-success">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Tareas
+          </h1>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="columns is-mobile is-desktop is-tablet is-multiline" id="sectioncontainer">
+          <Columns v-for="state in states" :column="state" :key="state.key"></Columns>
+        </div>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>

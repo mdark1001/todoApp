@@ -1,5 +1,5 @@
 {
-  "name": "todo_list",
+  "name": "SEA",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,20 +9,25 @@
     "watch": "vue-cli-service lint --fix; vue-cli-service serve"
   },
   "dependencies": {
-    "bulma": "^0.8.1",
-    "core-js": "^3.6.4",
+    "@vue/cli-plugin-eslint": "^4.3.1",
+    "axios": "^0.19.2",
+    "bulma": "^0.8.2",
+    "bulma-extensions": "^6.2.7",
+    "chart.js": "^2.9.3",
+    "core-js": "^3.6.5",
     "vue": "^2.6.11",
-    "vue-router": "^3.1.5"
+    "vue-router": "^3.1.5",
+    "vuex": "^3.1.3",
+    "vuex-persist": "^2.2.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.2.0",
-    "@vue/cli-plugin-eslint": "^4.2.0",
-    "@vue/cli-service": "^4.2.0",
+    "@vue/cli-plugin-babel": "^4.3.1",
+    "@vue/cli-service": "^4.3.1",
     "@vue/eslint-config-standard": "^5.1.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.2",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^6.1.2",

@@ -3,4 +3,4 @@ To do App
 
 Directorios: 
 
-todoApp/ proyecto del frontend usando Vue.js 
+```todoApp/``` proyecto del frontend usando Vue.js 
