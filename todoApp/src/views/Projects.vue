@@ -19,14 +19,12 @@
       <div class="container">
 
         <div class="columns is-multiline ">
-
-          <Project v-for="project in projects" :key="project._id" :project="project"/>
           <div class="column is-4-desktop ">
             <div class="card" @click="show_modal_project">
               <div class="card-content">
-                  <div class="button_card_plus">
+                <div class="button_card_plus">
 
-                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -71,6 +69,9 @@
 <style scoped lang="scss">
   .column .card {
     height: 100%
+  }
+  .plus{
+    height: 50% !important;
   }
 
   button.is-card-button {
