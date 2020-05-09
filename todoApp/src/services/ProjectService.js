@@ -6,6 +6,21 @@
 import BASE from './BASE'
 
 const axios = require('axios')
+const MESES=[
+  'Enero',
+  'Febrero',
+  'Marzo',
+  'Abril',
+  'Mayo',
+  'Junio',
+  'Julio',
+  'Agosto',
+  'Septiembre',
+  'Octubre',
+  'Noviembre',
+  'Diciembre'
+]
+
 
 class ProjectServices extends BASE {
   getProjects (token) {
@@ -34,6 +49,16 @@ class ProjectServices extends BASE {
         json: true
 
       })
+  }
+  getViewPriority(value){
+    return value
+
+  }
+
+  formatterDate(value){
+    var date = new Date(value);
+    let mes =MESES[date.getMonth()]
+    return `${date.getDate()} de ${mes} del ${date.getFullYear()}`
   }
 }
 

@@ -104,7 +104,7 @@
                      v-model="password" placeholder="******"
                      class="input  is-medium"
                      required>
-              <span class="icon is-small is-left">
+              <span class="icon is-small is-left">  
                   <i class="fa fa-lock"></i>
                 </span>
             </div>
